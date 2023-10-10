@@ -1,3 +1,8 @@
 img{
     height: 50px;
+    margin-top: 20px;
+}
+
+h3{
+    display: inline;
 }

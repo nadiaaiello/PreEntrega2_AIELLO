@@ -1,13 +1,19 @@
 import './App.css';
 import Navbar from './components/Navbar/Navbar';
 import ItemListContainer from './components/ItemListContainer/ItemListContainer';
+import ItemCount from './components/ItemCount/ItemCount';
 
 function App() {
   return (
-    <header>
-      <Navbar/>
-      <ItemListContainer greeting={'Bienvenidos'}/>
-    </header>
+    <div className='App'>
+      <header>
+        <Navbar/>
+        <ItemListContainer greeting={'Bienvenidos'}/>
+      </header>
+      <main>
+        <ItemCount/>
+      </main>
+    </div>
 
   );
 }
