@@ -11,7 +11,7 @@ function App() {
         <ItemListContainer greeting={'Bienvenidos'}/>
       </header>
       <main>
-        <ItemCount/>
+        <ItemCount initial={1} stock={15} onAdd={(quantity) => console.log('Cantidad agregada', quantity)}/>
       </main>
     </div>
 
